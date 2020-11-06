@@ -1,0 +1,31 @@
+{
+  "name": "mypluralize",
+  "version": "1.0.0",
+  "description": "A Node.js module that returns the plural of any noun.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segfault-philosopher/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "Ian Buchanan <ian@iamreally.cool> (https://iamreally.cool/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segfault-philosopher/mypluralize/issues"
+  },
+  "homepage": "https://github.com/segfault-philosopher/mypluralize#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/pluralize": "^0.0.29",
+    "pluralize": "^8.0.0"
+  }
+}
