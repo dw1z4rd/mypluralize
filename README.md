@@ -34,3 +34,5 @@ define(function(require,exports,module){
 npm run test
 ```
 
+[![Build Status](https://travis-ci.com/segfault-philosopher/mypluralize.svg?branch=master)](https://travis-ci.com/segfault-philosopher/mypluralize)
+[![Coverage Status](https://coveralls.io/repos/github/segfault-philosopher/mypluralize/badge.svg)](https://coveralls.io/github/segfault-philosopher/mypluralize)
